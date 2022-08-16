@@ -1,0 +1,12 @@
+2022-07-27 12:29:53.279|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 10556|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-27 12:29:54.346|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 10556|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-27 12:29:54.374|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: 27/7/2022 12:29:54 PM|ProcessId: 10556|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-27 12:31:15.653|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 20600|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-27 12:31:16.747|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 20600|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-27 12:31:16.770|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: 27/7/2022 12:31:16 PM|ProcessId: 20600|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
