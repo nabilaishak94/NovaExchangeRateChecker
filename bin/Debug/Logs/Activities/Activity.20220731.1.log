@@ -1,0 +1,126 @@
+2020-04-22 13:27:13.395|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 9008|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 13:27:18.004|Error|Category: NovaExchangeRateChecker.Repos.CQMobile.ExchangeRateRepo|Title:|Message: Unable to Fetch InstrumentSchedule List. Error : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.Usp_NovaExchangeRateChecker_Fetch_ExchangeRateList'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NovaExchangeRateChecker.Repos.CQMobile.ExchangeRateRepo.GetExchangeRateList() in C:\Users\dalvintengyb\source\repos\NovaExchangeRateChecker\NovaExchangeRateChecker\Repos\CQMobile\ExchangeRateRepo.cs:line 30
+ClientConnectionId:87cb427d-367e-4bc2-8f8d-0e404135ee5f
+Error Number:2812,State:62,Class:16|ProcessId: 9008|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 13:27:29.556|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 23240|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 13:27:32.808|Error|Category: NovaExchangeRateChecker.Repos.CQMobile.ExchangeRateRepo|Title:|Message: Unable to Fetch InstrumentSchedule List. Error : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.Usp_NovaExchangeRateChecker_Fetch_ExchangeRateList'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at NovaExchangeRateChecker.Repos.CQMobile.ExchangeRateRepo.GetExchangeRateList() in C:\Users\dalvintengyb\source\repos\NovaExchangeRateChecker\NovaExchangeRateChecker\Repos\CQMobile\ExchangeRateRepo.cs:line 30
+ClientConnectionId:559f52ac-c8e1-4f2b-b606-d69bcefe7d13
+Error Number:2812,State:62,Class:16|ProcessId: 23240|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 13:27:50.630|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 14728|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 13:29:31.725|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 24520|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 13:35:33.327|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 23968|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 13:36:03.435|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 17348|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 15:39:08.062|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 26152|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 15:41:04.212|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 25864|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 15:44:16.978|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 9952|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 15:44:20.585|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 9952|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 15:47:51.658|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Updated USDUSD conversion rate: 1.5000000000|ProcessId: 9952|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 15:48:53.890|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 20280|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2020-04-22 15:48:57.714|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 20280|Machine: PFPLDEV17|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-18 21:27:06.777|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 10044|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-18 21:27:07.775|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 10044|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-18 23:31:02.766|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 21340|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-18 23:31:03.792|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 21340|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-18 23:43:09.425|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 2108|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-18 23:43:10.397|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 2108|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 00:10:19.696|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 18668|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 00:10:20.704|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 18668|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:17:27.100|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 25008|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:17:28.085|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 25008|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:17:35.938|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 22804|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:17:36.882|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 22804|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:20:30.652|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 23984|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:20:31.606|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 23984|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:23:04.721|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 25292|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:23:05.674|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 25292|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:30:38.505|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 7960|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:30:39.488|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 7960|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:42:05.734|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 6952|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:42:06.687|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 6952|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:44:16.702|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 9152|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:44:17.629|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 9152|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:59:24.848|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 25212|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-19 01:59:25.803|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 25212|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-21 15:56:59.186|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 18528|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-21 15:57:00.174|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 18528|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-21 15:57:55.615|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 26556|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-21 15:57:56.628|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 26556|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-21 15:59:42.916|Information|Category: NovaExchangeRateChecker.Controller|Title:|Message: Logger Service Started.|ProcessId: 19188|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-21 15:59:43.908|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: Finished Finished Run Exchangerate Update.|ProcessId: 19188|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-21 15:59:43.928|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: 21/7/2022 3:59:43 PM|ProcessId: 19188|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-21 15:59:53.953|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: 21/7/2022 3:59:53 PM|ProcessId: 19188|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+2022-07-21 16:00:03.987|Information|Category: NovaExchangeRateChecker.Managers.ExchangeRateCheckerManager|Title:|Message: 21/7/2022 4:00:03 PM|ProcessId: 19188|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
