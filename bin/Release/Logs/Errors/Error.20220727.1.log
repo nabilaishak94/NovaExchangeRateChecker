@@ -1,0 +1,7 @@
+----------------------------------------
+2022-07-25 12:40:03.708|Error|Category: NovaExchangeRateChecker.Managers.RedisManager|Title:|Message: Unable To Reconnect Redis Connection : StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. SocketFailure on PING
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Func`1 multiplexerFactory, TextWriter log)
+   at StackExchange.Redis.ConnectionMultiplexer.Connect(ConfigurationOptions configuration, TextWriter log)
+   at NovaExchangeRateChecker.Managers.RedisManager.ReconnectRedis() in C:\Users\nornabila\Downloads\document-nabila\apps code\Example Coding Structure\NovaExchangeRateChecker\NovaExchangeRateChecker\Managers\RedisManager.cs:line 95|ProcessId: 24548|Machine: DTJHBW108HGQ7N2|App Domain: NovaExchangeRateChecker.exe
+
+----------------------------------------
